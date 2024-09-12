@@ -1,0 +1,88 @@
+#cards{  
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+
+    #card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    img{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: centre;
+        height: 200px;
+        width: 200px;
+        border: 2px grey solid;
+    }
+    #card_details{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        ;
+
+      #about{
+        font-size: 15px;
+        color: grey;
+      }
+      #price{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: end;
+        padding: 5px;
+        gap: 5px;
+
+        #rupees{
+            font-size: 25px;
+            font-weight: bold;
+        }
+        #text{
+            font-size: 10px;
+            color: gray;
+            text-align: end;
+        }
+      }
+      #delivery{
+        font-size: 15px;
+        border-radius: 10px;
+        background-color: #eee;
+
+      }
+      #rating{
+        display: flex;
+        flex-direction: row;
+        justify-content: centre;
+        align-items: end;
+        padding: 5px;
+        gap: 5px;
+      #num{
+        font-size: 25px;
+        font-weight: bold;
+        border-radius: 10px;
+        color: #eee;
+        background-color: rgba(22, 154, 22, 0.949);
+      }
+      #reviews{
+        font-size: 15px;
+        color: grey;
+        text-align: center;
+      }
+      }
+
+    }
+
+
+    
+
+}
+h1{
+  text-align: center;
+  color: #eee;
+  border: 2px black solid;
+  background-color: black;
+}
